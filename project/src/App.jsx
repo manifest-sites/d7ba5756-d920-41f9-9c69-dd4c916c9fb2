@@ -10,13 +10,9 @@ function App() {
 
   return (
     <Monetization>
-      <Router basename={getRouterBasename()}>
-        <Navigation />
-        <Routes>
-          <Route path="/" element={<HelloWorld />} />
-          <Route path="/about" element={<About />} />
-        </Routes>
-      </Router>
+      <div className="flex items-center justify-center min-h-screen">
+        <div className="text-[20rem] leading-none">🐶</div>
+      </div>
     </Monetization>
   )
 }
